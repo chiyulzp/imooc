@@ -1,0 +1,15 @@
+.head_bg {
+  background: #ff2d50;
+  height: auto;
+}
+.head_bg .all_skill li {
+  font-size: 0.52rem;
+  padding: 0.2rem 0.4rem;
+}
+.head_bg .all_skill li.active {
+  background: #fff;
+  color: #FF2D50;
+}
+.imoocList {
+  margin-top: 0.4rem;
+}

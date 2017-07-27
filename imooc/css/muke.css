@@ -1,0 +1,282 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background-color: #f3f5f7;
+  font-family: sans-serif;
+}
+header {
+  height: 2rem;
+  padding: 0.4rem 0.5rem;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+header .logo img {
+  width: 3.3rem;
+  height: auto;
+}
+header .user img {
+  width: 1rem;
+  height: 0.96rem;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.wrapper .carousel {
+  width: 400%;
+}
+.wrapper .carousel li {
+  width: 25%;
+  float: left;
+}
+.wrapper .carousel li img {
+  width: 100%;
+  height: auto;
+}
+.wrapper nav {
+  background: #fff;
+  padding: 0.64rem 0;
+}
+.menu {
+  text-align: center;
+}
+.menu li {
+  float: left;
+  width: 25%;
+}
+.menu li a {
+  display: block;
+}
+.menu li a img {
+  width: 1.36rem;
+  height: 1.32rem;
+}
+.menu li a span {
+  display: block;
+  margin-top: 0.16rem;
+}
+.menu li a:hover,
+.menu li a:focus,
+.menu li a:active {
+  text-decoration: none;
+}
+.title {
+  height: 1.9rem;
+  line-height: 1.9rem;
+  padding: 0 0.6rem;
+  font-size: 0.6rem;
+}
+.title span {
+  float: right;
+  border: 0.02rem solid #dddddd;
+  border-radius: 1rem;
+  font-size: 0.4rem;
+  width: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+.learn {
+  padding-bottom: 0.4rem;
+}
+
+.route {
+  background-color: #fff;
+}
+.route .itemWrap {
+  padding: 0 0.6rem;
+}
+.routeList li {
+  padding-bottom: 0.96rem;
+}
+.routeList li a {
+  display: block;
+}
+.routeList li img {
+  width: 3.6rem;
+  height: 4.08rem;
+}
+.routeList li .book {
+  position: relative;
+  float: left;
+}
+.routeList li .book .bookInfo {
+  position: absolute;
+  left: 0.2rem;
+  bottom: 0.4rem;
+  color: #fff;
+}
+.routeList li .book .hr {
+  height: 0;
+  border: 0.02rem solid #ffffff;
+  margin: 0.2rem 0;
+}
+.class-shadow {
+  width: 100%;
+}
+.class-shadow .line {
+  background-color: #edeeef;
+  box-shadow: 3px 1px 6px 1px #c4c6c8;
+  height: 0.08rem;
+}
+.class-shadow .line-a {
+  width: 98%;
+}
+.class-shadow .line-b {
+  width: 96%;
+}
+.class-shadow .line-c {
+  width: 94%;
+}
+.bookdetail {
+  float: left;
+  width: 9.6rem;
+  margin-left: 0.6rem;
+}
+.bookdetail .course_class_name {
+  font-size: 0.6rem;
+  color: #000;
+}
+.bookdetail .small_info {
+  font-size: 0.48rem;
+  color: #777;
+  padding: 0.16rem 0;
+}
+.bookdetail .person_learn {
+  font-size: 0.52rem;
+  color: #777;
+}
+.bookdetail .person_learn .course_price {
+  float: right;
+  color: #fc3154;
+}
+.actual {
+  padding-bottom: 0.4rem;
+}
+.actual .items li .detail {
+  font-size: 0.28rem;
+}
+.actual .items li .detail em {
+  margin-left: -0.1rem;
+  margin-right: -0.1rem;
+}
+.actual .items li .detail .price {
+  float: right;
+  color: #fc3154;
+  font-size: 0.4rem;
+  letter-spacing: -0.02rem;
+  margin-right: 0.1rem;
+}
+.actual .items li .detail .personsNum {
+  letter-spacing: -0.06rem;
+}
+.guest {
+  padding-top: 0.8rem;
+  padding-bottom: 0;
+}
+.guest .title {
+  border: 0.02rem solid #dddddd;
+  height: 0;
+  position: relative;
+  margin: 0 0.6rem;
+}
+.guest .title i {
+  float: left;
+  height: 0.8rem;
+  width: 3.2rem;
+  margin-left: -1.6rem;
+  text-align: center;
+  position: absolute;
+  background-color: #f3f5f7;
+  left: 50%;
+  top: -0.4rem;
+  line-height: 0.8rem;
+}
+.guest .items {
+  margin-top: 0.8rem;
+}
+.slideImg {
+  width: 100%;
+  height: 5rem;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #a0f7ff;
+}
+.slideImg .imgs {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.slideImg #picList {
+  width: 400%;
+  height: 5rem;
+}
+.slideImg #picList a {
+  float: left;
+  width: 25%;
+  height: 5rem;
+}
+.slideImg #picList a img {
+  width: 100%;
+  height: 100%;
+}
+.slideImg #btns {
+  text-align: center;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.6rem;
+}
+.slideImg #btns span {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.24rem;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  background-color: #ccc;
+}
+.slideImg #btns span.active {
+  background-color: #fff;
+}
+.slideImg .info {
+  position: absolute;
+  width: 100%;
+  bottom: 0.4rem;
+  padding-left: 0.56rem;
+  padding-right: 0.24rem;
+}
+.slideImg .info h2 {
+  float: left;
+  font-size: 0.6rem;
+  color: #fff;
+}
+.slideImg .info p {
+  color: #eee;
+  float: right;
+  font-size: 0.64rem;
+}
+.slideImg .info p .thisPage {
+  color: #ff2e17;
+  font-size: 0.56rem;
+}
+.slideImg .info p .total {
+  color: #fff;
+  font-size: 0.44rem;
+}

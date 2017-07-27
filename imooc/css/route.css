@@ -1,0 +1,20 @@
+body {
+  padding-top: 0;
+  background-color: #fff;
+}
+header {
+  background: rgba(0, 0, 0, 0.4);
+}
+.head_bg {
+  width: 100%;
+}
+.head_bg img {
+  width: 100%;
+  height: auto;
+}
+.bookItems {
+  padding: 0 0.64rem;
+}
+.bookItems li {
+  border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,10 @@
+$(function(){
+	//滚动屏幕改变header颜色
+	$(window).scroll(function(){
+		if($(window).scrollTop()>50){
+			$("header").css("background","#000000");
+		}else{
+			$("header").css("background","");
+		}
+	})
+})

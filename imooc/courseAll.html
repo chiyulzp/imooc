@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>慕课网移动端</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!--视口宽度为设备宽度，不能缩放-->
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<!--qq浏览器下强制横盘或者竖屏显示-->
+		<meta name="x5-orientation" content="portrait" />
+		<!--qq浏览器下是否可以全屏-->
+		<meta name="x5-fullscreen" content="true" />
+		<!--UC浏览器下强制横盘或者竖屏显示-->
+		<meta name="screen-orientation" content="portrait">
+		<!--UC浏览器下是否可以全屏-->
+		<meta name="full-screen" content="yes">
+		<!--是否禁止识别手机和邮箱-->
+		<meta name="format-detection" content="telephone=yes, email=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/icomoon/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/actual.css"/>
+		<link rel="stylesheet" href="css/courseAll.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/courseAll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/scrollTop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/checkLogin.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/reload.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(){
+			   	var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth/15 + "px";
+			})();
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="logo pull-left">
+				<a href="course.html">
+					<i class="icon-back"></i>
+				</a>
+			</div>
+			<span>实战</span>
+			<div class="user pull-right">
+				<a id="userImg" href="javascript:;">
+					<i class="icon-用户"></i>
+				</a>
+			</div>
+		</header>
+			
+		<div class="content">
+			<div class="head_bg">
+				<div class="all_skill">
+					<ul class="course_class">
+						<li class="active">
+							<a href="#">全部</a>
+						</li>
+						<li>
+							<a href="#">基础</a>
+						</li>
+						<li>
+							<a href="#">案例</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="imoocList">
+				<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+					<a href="#">
+						<img src="img/list1.jpg" alt="" />
+						<div class="info">
+							<p class="listName">HTML+CSS基础课程</p>
+							<p class="detail">
+								<span class="rank">初级</span>
+								<em>·</em>
+								<span class="personsNum">719748人学习</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+					<a href="#">
+						<img src="img/53e1d0470001ad1e06000338-228-128.jpg" alt="" />
+						<div class="info">
+							<p class="listName">JavaScript入门篇</p>
+							<p class="detail">
+								<span class="rank">初级</span>
+								<em>·</em>
+								<span class="personsNum">477905人学习</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+					<a href="#">
+						<img src="img/57035ff200014b8a06000338-228-128.jpg" alt="" />
+						<div class="info">
+							<p class="listName">Java入门第一季</p>
+							<p class="detail">
+								<span class="rank">初级</span>
+								<em>·</em>
+								<span class="personsNum">675760人学习</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+					<a href="#">
+						<img src="img/53daee770001dd0706000338-228-128.jpg" alt="" />
+						<div class="info">
+							<p class="listName">PHP入门篇</p>
+							<p class="detail">
+								<span class="rank">初级</span>
+								<em>·</em>
+								<span class="personsNum">331034人学习</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+					<a href="#">
+						<img src="img/53bf89100001684e06000338-228-128.jpg" alt="" />
+						<div class="info">
+							<p class="listName">Android攻城狮的第一门课（入门篇）</p>
+							<p class="detail">
+								<span class="rank">初级</span>
+								<em>·</em>
+								<span class="personsNum">259700人学习</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+					<a href="#">
+						<img src="img/570779ba00011eac06000338-228-128.jpg" alt="" />
+						<div class="info">
+							<p class="listName">使用Swift开发iOS8 App实战</p>
+							<p class="detail">
+								<span class="rank">初级</span>
+								<em>·</em>
+								<span class="personsNum">57572人学习</span>
+							</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="more">
+				<span>
+					点击加载更多
+				</span>
+			</div>
+		</div>
+		
+		<footer>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="icon-首页-首页"></i>
+						<p>首页</p>
+					</a>
+				</li>
+				<li class="active">
+					<a href="course.html">
+						<i class="icon-manage"></i>
+						<p>课程</p>
+					</a>
+				</li>
+				<li>
+					<a href="actual.html">
+						<i class="icon-安全"></i>
+						<p>实战</p>
+					</a>
+				</li>
+				<li>
+					<a href="route.html">
+						<i class="icon-网络品牌树"></i>
+						<p>路径</p>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

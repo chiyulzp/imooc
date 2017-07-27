@@ -1,0 +1,89 @@
+@r:50rem;
+body{
+    padding-top:0;
+}
+header{
+    background:rgba(0,0,0,0.4);
+}
+.head_bg{
+    background:url(../img/sz-head-bg.jpg);
+    height:489/@r;
+    background-size:cover;
+    background-position: center;
+}
+.all_skill{
+    padding:131/@r 32/@r 46/@r;
+}
+.course_class{
+    font-size:24/@r;
+    li{
+        float: left;
+        padding:15/@r 30/@r;
+        margin:22/@r 0 0 18/@r;
+        border:2/@r solid rgba(255,255,255,.4);
+        border-radius: 30/@r;
+        color:#fff;
+    }
+    li.active{
+        background:#fc3154;
+        border-color:#fc3154;
+    }
+}
+.classItems{
+    padding:0 32/@r;
+    li{
+        padding:45/@r 0;
+        border-bottom:1/@r solid #ddd;
+    }
+    li:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .leftImg{
+        width:180/@r;
+        height:180/@r;
+        overflow: hidden;
+        float:left;
+        img{
+            width: 100%;
+            height: 100%;
+            background-position-x: 50%;
+            background-position-y: 50%;
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+       
+    }
+    .rightInfo{
+        margin-left:32/@r;
+        float:left;
+        width:470/@r;
+        p{
+            margin-bottom: 20/@r;
+        }
+        .className{
+            font-size:28/@r;
+            color:#2b333b;
+        }
+        .class-desc{
+            font-size:24/@r;
+            color:#71777d;
+        }
+        .detail{
+            font-size:20/@r;
+            color:#71777d;
+            .price{
+                float:right;
+                color:#fc3154;
+            }
+        }
+    }
+    .ad{
+        width:100%;
+        img{
+            width:100%;
+            height:auto;
+        }
+    }
+}

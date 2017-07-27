@@ -1,0 +1,141 @@
+header {
+  color: #fff;
+  font-size: 0.68rem;
+  line-height: 1.2rem;
+  background-color: #2B333B;
+}
+header span {
+  font-size: 0.68rem;
+  line-height: 1.2rem;
+}
+.content {
+  position: relative;
+}
+.content ul {
+  margin: 0.8rem 0;
+}
+.content ul li {
+  float: left;
+  width: 33.33333333%;
+  text-align: center;
+}
+.content ul a {
+  display: block;
+  margin: 0 auto;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 2.6rem;
+}
+.content ul a i {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.content ul .weibo a {
+  background: #e55b65;
+}
+.content ul .weixin a {
+  background: #69ca4f;
+}
+.content ul .qq a {
+  background: #69caf4;
+}
+.lgRe {
+  margin-top: 3.2rem;
+  position: relative;
+}
+.lgRe .tips {
+  width: 100%;
+  position: absolute;
+  top: -1rem;
+  text-align: center;
+  font-size: 0.76rem;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+.lgRe div {
+  height: 2rem;
+  padding: 0 0.4rem;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 0.16rem;
+  font-size: 0.6rem;
+  position: relative;
+}
+.lgRe div input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.lgRe div i {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+.lgRe div .checked {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../img/true.png) 0px 0px;
+  background-size: cover;
+  opacity: 0;
+  transition: 0.5s;
+}
+.lgRe .pwd {
+  text-align: left;
+}
+.lgRe .pwd input {
+  width: 90%;
+}
+.lgRe .denglu {
+  width: 11.2rem;
+  height: 2rem;
+  font-size: 0.68rem;
+  background: #FF2D50;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+}
+.lgRe .denglu input {
+  background: #FF2D50;
+}
+.lgRe .forget {
+  text-align: center;
+  color: #FF2D50;
+  margin-top: 1.6rem;
+  font-size: 0.6rem;
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999;
+}
+.register div {
+  height: 1.6rem;
+  font-size: 0.56rem;
+}
+.register #getyzm {
+  position: absolute;
+  top: 0;
+  right: 0.8rem;
+}
+.register .user .checked {
+  top: 0.2rem;
+}

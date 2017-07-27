@@ -1,0 +1,232 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background-color: #f3f5f7;
+  font-family: sans-serif;
+  padding-top:2rem;
+  padding-bottom: 2.2rem;
+}
+header {
+  height: 2rem;
+  padding: 0.4rem 0.5rem;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+header .logo i {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+header .logo img {
+  width: 3.3rem;
+  height: auto;
+}
+header .user img {
+  width: 1rem;
+  height: 0.96rem;
+}
+header .user i{
+	font-size:1rem;
+	height:1rem;
+	color:#fff;
+}
+header span{
+	width:60%;
+	height: 100%;
+	text-align: left;
+	line-height:1.2rem;
+	color:#fff;
+	display: inline-block;
+	margin-left:0.4rem;
+	font-size: 0.6rem;
+	position: relative;
+}
+header span select{
+	position: absolute;
+	left:0;
+	top:0;
+	color:#333;
+	height:100%;
+	border: none;
+	outline: none;
+}
+header input{
+	border:none;
+	outline: none;
+	width:100%;
+	height:100%;
+	font-size:0.6rem;
+	text-indent: 0.3rem;
+	color:#333;
+}
+header #needSearch{
+	text-indent: 2.4rem;
+}
+header input[type="button"]{
+	position: absolute;
+	right: 0;
+	top:0;
+	width:2rem;
+	height: 100%;
+	background: skyblue;
+	border: none;
+	outline: none;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  z-index: 99;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-top:1px solid #ddd;
+  box-shadow: 0 -1/@r 1/@r 3/@r #ddd;
+  font-size:0.48rem;
+}
+footer ul li {
+  float: left;
+  width: 25%;
+}
+footer ul li i {
+  font-size: 0.92rem;
+}
+footer ul li.active {
+  color: #ff0000;
+}
+
+/*routeList*/
+.routeList li {
+  padding:0.48rem 0;
+}
+.routeList li a {
+  display: block;
+}
+.routeList li img {
+  width: 3.6rem;
+  height: 4.08rem;
+}
+.routeList li .book {
+  position: relative;
+  float: left;
+}
+.routeList li .book .bookInfo {
+  position: absolute;
+  left: 0.2rem;
+  bottom: 0.4rem;
+  color: #fff;
+  font-size:.4rem;
+}
+.routeList li .book .hr {
+  height: 0;
+  border: 0.02rem solid #ffffff;
+  margin: 0.2rem 0;
+}
+
+.class-shadow {
+  width: 100%;
+}
+.class-shadow .line {
+  background-color: #edeeef;
+  box-shadow: 3px 1px 6px 1px #c4c6c8;
+  height: 0.08rem;
+}
+.class-shadow .line-a {
+  width: 98%;
+}
+.class-shadow .line-b {
+  width: 96%;
+}
+.class-shadow .line-c {
+  width: 94%;
+}
+.bookdetail {
+  float: left;
+  width: 9rem;
+  margin-left: 0.6rem;
+}
+.bookdetail .course_class_name {
+  font-size: 0.6rem;
+  color: #000;
+}
+.bookdetail .small_info {
+  font-size: 0.48rem;
+  color: #777;
+  padding: 0.16rem 0;
+}
+.bookdetail .person_learn {
+  font-size: 0.52rem;
+  color: #777;
+}
+.bookdetail .person_learn .course_price {
+  float: right;
+  color: #fc3154;
+}
+
+.imoocList li {
+  padding: 0 0.36rem 0.48rem 0.36rem;
+}
+.imoocList li a {
+  border-radius: 0.2rem;
+  background-color: #fff;
+  display: block;
+  box-shadow: 0.02rem 0.02rem 0.02rem 0.1rem #eeeeee;
+}
+.imoocList li img {
+  -moz-border-radius-topleft: 0.24rem;
+  -moz-border-radius-topright: 0.24rem;
+  -webkit-border-top-right-radius: 0.24rem;
+  -webkit-border-top-left-radius: 0.24rem;
+  width: 100%;
+  height: auto;
+}
+.imoocList li .info {
+  line-height: 0.96rem;
+  margin: 0.32rem 0.24rem;
+  padding-bottom: 0;
+}
+.imoocList li .info p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.imoocList li .info .detail {
+  font-size: 0.24rem;
+  color: #bbb;
+}
+.imoocList li .info .detail em {
+  margin-left: -0.08rem;
+  margin-right: -0.08rem;
+}
+/*加载更多*/
+.more {
+  margin-bottom: 0.6rem;
+}
+.more span {
+  margin: 0 auto;
+  display: block;
+  width: 6.2rem;
+  height: 1.24rem;
+  border: 0.02rem solid #dddddd;
+  border-radius: 1.2rem;
+  line-height: 1.24rem;
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+body {
+  padding-top: 0;
+}
+header {
+  background: rgba(0, 0, 0, 0.4);
+}
+.head_bg {
+  background: url(../img/sz-head-bg.jpg);
+  height: 9.78rem;
+  background-size: cover;
+  background-position: center;
+}
+.all_skill {
+  padding: 2.62rem 0.64rem 0.92rem;
+}
+.course_class {
+  font-size: 0.48rem;
+}
+.course_class li {
+  float: left;
+  padding: 0.3rem 0.6rem;
+  margin: 0.44rem 0 0 0.36rem;
+  border: 0.04rem solid rgba(255, 255, 255, 0.4);
+  border-radius: 0.6rem;
+  color: #fff;
+}
+.course_class li.active {
+  background: #fc3154;
+  border-color: #fc3154;
+}
+.classItems {
+  padding: 0 0.64rem;
+}
+.classItems li {
+  padding: 0.9rem 0;
+  border-bottom: 0.02rem solid #dddddd;
+}
+.classItems li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.classItems .leftImg {
+  width: 3.6rem;
+  height: 3.6rem;
+  overflow: hidden;
+  float: left;
+}
+.classItems .leftImg img {
+  width: 100%;
+  height: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.classItems .rightInfo {
+  margin-left: 0.64rem;
+  float: left;
+  width: 9.4rem;
+}
+.classItems .rightInfo p {
+  margin-bottom: 0.4rem;
+}
+.classItems .rightInfo .className {
+  font-size: 0.56rem;
+  color: #2b333b;
+}
+.classItems .rightInfo .class-desc {
+  font-size: 0.48rem;
+  color: #71777d;
+}
+.classItems .rightInfo .detail {
+  font-size: 0.4rem;
+  color: #71777d;
+}
+.classItems .rightInfo .detail .price {
+  float: right;
+  color: #fc3154;
+}
+.classItems .ad {
+  width: 100%;
+}
+.classItems .ad img {
+  width: 100%;
+  height: auto;
+}

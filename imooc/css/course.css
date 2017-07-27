@@ -1,0 +1,38 @@
+body {
+  background-color: #fff;
+}
+.courseSkill dl:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.courseSkill dl {
+  margin-top: 0.96rem;
+  border-bottom: 0.02rem solid #efefef;
+}
+.courseSkill dt {
+  margin-left: 0.64rem;
+  margin-bottom: 1rem;
+}
+.courseSkill dd {
+  float: left;
+  width: 33.33333333%;
+  margin-bottom: 1rem;
+}
+.courseSkill dd a {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.courseSkill dd a img {
+  width: 2rem;
+  height: auto;
+  border-radius: 50%;
+}
+.courseSkill dd a span {
+  display: block;
+  padding-top: 0.2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.48rem;
+}

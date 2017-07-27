@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>慕课网移动端</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!--视口宽度为设备宽度，不能缩放-->
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<!--qq浏览器下强制横盘或者竖屏显示-->
+		<meta name="x5-orientation" content="portrait" />
+		<!--qq浏览器下是否可以全屏-->
+		<meta name="x5-fullscreen" content="true" />
+		<!--UC浏览器下强制横盘或者竖屏显示-->
+		<meta name="screen-orientation" content="portrait">
+		<!--UC浏览器下是否可以全屏-->
+		<meta name="full-screen" content="yes">
+		<!--是否禁止识别手机和邮箱-->
+		<meta name="format-detection" content="telephone=yes, email=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/course.css"/>
+		<link rel="stylesheet" type="text/css" href="css/icomoon/style.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/checkLogin.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/reload.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(){
+			   	var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth/15 + "px";
+			})();
+			$(function(){
+				$(".courseSkill a").on("touchstart",function(){
+					var href=this.href;
+					this.href="javascript:;";
+					window.location.href="courseAll.html";
+				})
+			})	
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="logo pull-left">
+				<a href="index.html"><img src="img/logo.png" alt="" /></a>
+			</div>
+			<div class="user pull-right">
+				<a id="userImg" href="javascript:;">
+					<i class="icon-用户"></i>
+				</a>
+			</div>
+		</header>
+		
+		<div class="content">
+			<section class="courseSkill">
+				<dl>
+					<dt>前端开发</dt>
+					<dd>
+						<a href="/course/list.html?c=html">
+							<i><img src="http://img.mukewang.com/565ec2670001146402400240-100-100.jpg" alt=""></i>
+							<span>HTML/CSS</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="/course/list.html?c=javascript">
+							<i><img src="http://img.mukewang.com/565ec2720001296402400240-100-100.jpg" alt=""></i>
+							<span>JavaScript</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="/course/list.html?c=jquery">
+							<i><img src="http://img.mukewang.com/565ec27d0001738602400240-100-100.jpg" alt=""></i>
+							<span>jQuery</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="/course/list.html?c=html5">
+							<i><img src="http://img.mukewang.com/565ec24d00015d1702400240-100-100.jpg" alt=""></i>
+							<span>Html5</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="/course/list.html?c=nodejs">
+							<i><img src="http://img.mukewang.com/565ec25a0001094402400240-100-100.jpg" alt=""></i>
+							<span>Node.js</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="/course/list.html?c=angularjs">
+							<i><img src="http://img.mukewang.com/565ec2220001272802400240-100-100.jpg" alt=""></i>
+							<span>AngularJS</span>
+						</a>
+					</dd>
+					<dd>
+						<a href="/course/list.html?c=webapp">
+							<i><img src="http://img.mukewang.com/565ec1e10001860802400240-100-100.jpg" alt=""></i>
+							<span>WebApp</span>
+						</a>
+					</dd>
+				
+					<dd>
+						<a href="/course/list.html?c=fetool">
+							<i><img src="http://img.mukewang.com/565ec1d4000103f702400240-100-100.jpg" alt=""></i>
+							<span>前端工具</span>
+						</a>
+				
+					</dd>
+				
+					<dd>
+						<a href="/course/list.html?c=css3">
+							<i><img src="http://img.mukewang.com/565ec1c60001407602400240-100-100.jpg" alt=""></i>
+							<span>CSS3</span>
+						</a>
+				
+					</dd>
+				
+					<dd>
+						<a href="/course/list.html?c=bootstrap">
+							<i><img src="http://img.mukewang.com/565ec1ac0001f4ea02400240-100-100.jpg" alt=""></i>
+							<span>Bootstrap</span>
+						</a>
+				
+					</dd>
+				
+					<dd>
+						<a href="/course/list.html?c=reactjs">
+							<i><img src="http://img.mukewang.com/579f2dbd000130cc02400240-100-100.jpg" alt=""></i>
+							<span>React.JS</span>
+						</a>
+				
+					</dd>
+				
+					<dd>
+						<a href="/course/list.html?c=vuejs">
+							<i><img src="http://img.mukewang.com/57b2d0d2000136e702400240-100-100.jpg" alt=""></i>
+							<span>Vue.js</span>
+						</a>
+				
+					</dd>
+				
+					<dd>
+						<a href="/course/list.html?c=sassless">
+							<i><img src="http://img.mukewang.com/57b4492a0001223302400240-100-100.jpg" alt=""></i>
+							<span>Sass/Less</span>
+						</a>
+				
+					</dd>
+				
+				</dl>
+				<dl>
+					<dt>后端开发</dt>
+					
+					<dd>
+						<a href="/course/list.html?c=algorithm">
+							<i><img src="594787da0001b8db06400640" alt=""></i>
+							<span>算法</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=php">
+							<i><img src="http://img.mukewang.com/565ec1f00001739002400240-100-100.jpg" alt=""></i>
+							<span>PHP</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=java">
+							<i><img src="http://img.mukewang.com/565ec2370001bebd02400240-100-100.jpg" alt=""></i>
+							<span>Java</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=python">
+							<i><img src="http://img.mukewang.com/565ec218000165b502400240-100-100.jpg" alt=""></i>
+							<span>Python</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=c">
+							<i><img src="http://img.mukewang.com/565ec1990001b8ad02400240-100-100.jpg" alt=""></i>
+							<span>C</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=cplusplus">
+							<i><img src="http://img.mukewang.com/565ec1720001449902400240-100-100.jpg" alt=""></i>
+							<span>C++</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=go">
+							<i><img src="http://img.mukewang.com/565ec1570001251d02400240-100-100.jpg" alt=""></i>
+							<span>Go</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=csharp">
+							<i><img src="http://img.mukewang.com/565ec0e70001ae1702400240-100-100.jpg" alt=""></i>
+							<span>C#</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=ruby">
+							<i><img src="http://img.mukewang.com/58453e110001204302400240-100-100.jpg" alt=""></i>
+							<span>Ruby</span>				
+						</a>
+			
+					</dd>
+					
+				</dl>
+				<dl>
+					<dt>移动开发</dt>
+					
+					<dd>
+						<a href="/course/list.html?c=android">
+							<i><img src="http://img.mukewang.com/565ec1fe0001ab9f02400240-100-100.jpg" alt=""></i>
+							<span>Android</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=ios">
+							<i><img src="http://img.mukewang.com/565ec22c000166b602400240-100-100.jpg" alt=""></i>
+							<span>iOS</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=unity3d">
+							<i><img src="http://img.mukewang.com/565ec18d0001422902400240-100-100.jpg" alt=""></i>
+							<span>Unity 3D</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=cocos2dx">
+							<i><img src="http://img.mukewang.com/565ec0fa0001bafb02400240-100-100.jpg" alt=""></i>
+							<span>Cocos2d-x</span>				
+						</a>
+			
+					</dd>
+					
+				</dl>	
+				<dl>
+					<dt>数据库</dt>
+					
+					<dd>
+						<a href="/course/list.html?c=mysql">
+							<i><img src="http://img.mukewang.com/565ec28c00016afc02400240-100-100.jpg" alt=""></i>
+							<span>MySQL</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=mongodb">
+							<i><img src="http://img.mukewang.com/565ec2a400019b1502400240-100-100.jpg" alt=""></i>
+							<span>MongoDB</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=oracle">
+							<i><img src="http://img.mukewang.com/565ec17f0001a9a302400240-100-100.jpg" alt=""></i>
+							<span>Oracle</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=sqlserver">
+							<i><img src="http://img.mukewang.com/565ec0b700018f8902400240-100-100.jpg" alt=""></i>
+							<span>SQL Server</span>				
+						</a>
+			
+					</dd>
+					
+				</dl>
+				<dl>
+					<dt>云计算&amp;大数据</dt>
+					
+					<dd>
+						<a href="/course/list.html?c=cloudcomputing">
+							<i><img src="http://img.mukewang.com/565ec2b00001dc0902400240-100-100.jpg" alt=""></i>
+							<span>云计算</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=bigdata">
+							<i><img src="http://img.mukewang.com/565ec12d0001749b02400240-100-100.jpg" alt=""></i>
+							<span>大数据</span>				
+						</a>
+			
+					</dd>
+					
+				</dl>
+				<dl>
+					<dt>运维&amp;测试</dt>
+					
+					<dd>
+						<a href="/course/list.html?c=linux">
+							<i><img src="http://img.mukewang.com/565ec29900019ddd02400240-100-100.jpg" alt=""></i>
+							<span>Linux</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=test">
+							<i><img src="http://img.mukewang.com/57aa954b0001397802400240-100-100.jpg" alt=""></i>
+							<span>测试</span>				
+						</a>
+			
+					</dd>
+					
+				</dl>
+				<dl>
+					<dt>UI设计</dt>
+					
+					<dd>
+						<a href="/course/list.html?c=uijc">
+							<i><img src="http://img.mukewang.com/58af9ee40001269602400240-100-100.jpg" alt=""></i>
+							<span>设计基础</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=uitool">
+							<i><img src="http://img.mukewang.com/58af9f8b0001e56802400240-100-100.jpg" alt=""></i>
+							<span>设计工具</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=uiapp">
+							<i><img src="http://img.mukewang.com/58afa039000194df02400240-100-100.jpg" alt=""></i>
+							<span>APPUI设计</span>				
+						</a>
+			
+					</dd>
+					
+					<dd>
+						<a href="/course/list.html?c=an">
+							<i><img src="http://img.mukewang.com/58afa0d10001a39f02400240-100-100.jpg" alt=""></i>
+							<span>动画动效</span>				
+						</a>
+			
+					</dd>
+					
+				</dl>
+			</section>
+		</div>
+		
+		<footer>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="icon-首页-首页"></i>
+						<p>首页</p>
+					</a>
+				</li>
+				<li class="active">
+					<a href="course.html">
+						<i class="icon-manage"></i>
+						<p>课程</p>
+					</a>
+				</li>
+				<li>
+					<a href="actual.html">
+						<i class="icon-安全"></i>
+						<p>实战</p>
+					</a>
+				</li>
+				<li>
+					<a href="route.html">
+						<i class="icon-网络品牌树"></i>
+						<p>路径</p>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

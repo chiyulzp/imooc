@@ -1,0 +1,226 @@
+.menu_map{
+	display:none;
+}
+.navigator-index{
+	background: #fff;
+	border-bottom: 2px solid #cf000e;
+	margin-bottom: 10px;
+}
+.menu_panel:hover .menu_map{
+	display: block;
+}
+
+
+img{
+	overflow: hidden;
+	vertical-align: top;
+	background: #eee;
+}
+
+
+
+/*content*/
+.Logo_img{
+	width:1190px;
+	margin:0 auto;
+}
+.fixed{
+	position: absolute;
+	top: 444px;
+	z-index: 55;
+	background: #fff;
+	width: 100%;
+	height: 135px;
+	margin-bottom: 9px;
+}
+.w{
+	width: 1015px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fixed ul li{
+	float:left;
+}
+.fixed ul li a{
+	display:block;
+	width:145px;
+	height:105px;
+	text-align: center;
+	font-family:"microsoft yahei";
+}
+.fixed .photo{
+	display: block;
+	margin:0 auto;
+	background: url(../img/xin/title1_1396493036.png) no-repeat;
+	width: 60px;
+	height: 60px;
+}
+.two .photo{
+	background-position: -60px 0;
+}
+.three .photo{
+	background-position: -120px 0;
+}
+.four .photo{
+	background-position: -180px 0;
+}
+.five .photo{
+	background-position: -300px 0;
+}
+.six .photo{
+	background-position: -360px 0;
+}
+.seven .photo{
+	background-position: -420px 0;
+}
+
+
+
+
+.fixed .card{
+	padding: 7px 0 0;
+	font-size:15px;
+	color:#333;
+	font-weight: bold;
+}
+.fixed .intro{
+	font-size:13px;
+	color:#888;
+}
+
+.guarantee_center{
+	padding-top:129px;
+	clear:both;
+}
+.o2o{
+	background: #569bdb;
+	width: 100%;
+}
+.o2o_back{
+	background: url(../img/xin/back1_01-02_1447055066.png) center center no-repeat;
+}
+.title_back1{
+	width: 1190px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.o2o_img{
+	background: url(../img/xin/jhsj_06_1441172424.jpg) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+}
+.back_height{
+	height: 300px;
+	overflow: hidden;
+}
+.purchase_back{
+	background: url(../img/xin/back2_1411981120.gif) center center no-repeat;
+}
+.purchase_img{
+	height: 302px;
+	background: url(../img/xin/title2_1411981121.gif) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+}
+.bso{
+	background: #ff6439;
+	width: 100%;
+}
+.bso_back{
+	background: url(../img/xin/back3_1411981120.gif) center center no-repeat;
+}
+.bso_img{
+	background: url(../img/xin/title3_1411981121.gif) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+	height: 300px;
+	overflow: hidden;
+}
+.quality_back{
+	background: url(../img/xin/back4_1411981120.gif) center center no-repeat;
+}
+.quality_img{
+	background: url(../img/xin/title4_1411981122.gif) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+}
+.t45_back{
+	background: url(../img/xin/back6_1411981121.gif) center center no-repeat;
+}
+.t45_img{
+	background: url(../img/xin/title6_1411981122.gif) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+}
+.title_postage_back{
+	background: url(../img/xin/back7_1411981121.gif) center center no-repeat;
+}
+.postage_img{
+	background: url(../img/xin/title7_1411981122.gif) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+}
+.mouth_back{
+	background: url(../img/xin/back8_1411981121.gif) center center no-repeat;
+}
+.mouth_img{
+	background: url(../img/xin/title8_1411981122.gif) center center no-repeat;
+	display: inline-block;
+	width: 1190px;
+}
+
+
+
+.side_two_d_image{
+	position: fixed;
+	width: 120px;
+	padding-top: 13px;
+	height: 179px;
+	background: #e5e5e5;
+	left: 10px;
+	text-align: center;
+	display: block;
+	color: #666;
+	line-height: 1.6;
+	z-index: 100;
+	top: 275px;
+	background: url(../img/xin/weixin2_1363327353.png) no-repeat;
+}
+
+#Fchat1,#Fchat2{
+	font-size: 12px;
+	z-index: 1500;
+	position: fixed;
+	overflow: hidden;
+}
+#Fchat1{
+	width: 100px;
+	height: 200px;
+	right: 5px;
+	top: 190px;
+	background: url(../img/xin/1399536980832.png) 0 0 no-repeat;
+}
+#Fchat1 .eye{
+	background: url(../img/xin/bf.gif);
+	width:35px;
+	height:9px;
+	position:absolute;
+	left:22px;
+	top:33px;
+}
+#Fchat1 .shouqi{
+	position:absolute;
+	width: 77px;
+	height: 30px;
+	bottom:0;
+	cursor:pointer;
+}
+#Fchat2{
+	width: 58px;
+	height: 127px;
+	right: 5px;
+	top: 190px;
+	background: url(../img/xin/1401178094439.png) 0 0;
+	cursor: pointer;
+	display:none;
+}

@@ -1,0 +1,858 @@
+.menu_panel .menu_map{
+	display:none;
+
+}
+.navigator-index{
+	background: #fff;
+	border-bottom: 2px solid #cf000e;
+	margin-bottom: 10px;
+}
+.color_or{
+	color: #ff6600;
+}
+
+/*content*/
+.content_w{
+	width:1190px;
+	margin:0 auto;
+}
+
+/*sideMenu*/
+.content_left{
+	width:200px;
+	height:388px;
+	float:left;
+	margin-right:10px;
+}
+.left_scroll_banner{
+	position:absolute;
+	z-index: 88;
+}
+.sideMenu{
+	width:200px;
+	border:1px solid #ddd;
+	position:relative;
+}
+.sideMenu_head{
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	border-bottom: solid 1px #DDD;
+	background: #F2F2F2;
+	font-size: 18px;
+	font-family: 微软雅黑;
+}
+.menu_list{
+	position:relative;
+}
+.menu_list>li .border_left{
+	width: 180px;
+	padding: 7px 10px;
+	background: #fff;
+	border-top: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+}
+.menu_list>li:hover .border_left{
+	border-left: solid 4px #c9033b;
+	padding-right:6px;
+	position: relative;
+	z-index: 13;
+}
+.sort_name{
+	height: 24px;
+	line-height: 24px;
+}
+.sort_name a{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	float: left;
+}
+.sort_name a:hover{
+	color:#c9033b;
+}
+.sort_name img{
+	margin-bottom: -4px;
+	margin-right:8px;
+}
+.sort_name i{
+	color: #CCC;
+	float: right;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+}
+.sort_kind{
+	margin-top:4px;
+	white-space: nowrap;
+}
+.sort_kind a{
+	padding-right:8px;
+}
+
+
+/*coverMenu*/
+.hideMenu{
+	position:absolute;
+	left:200px;
+	top:1px;
+	box-shadow: -2px -2px 5px #ccc;
+	z-index: 11;
+	background-color:#fff;
+	display: none;
+}
+.Items03,.Items04,.Items05,.Items06{
+	top:125px;
+}
+.coverMenu{
+	width:440px;
+	padding:0 20px;
+}
+.coverMenu .cattitle{
+	color:#333;
+	line-height: 30px;
+	padding-top: 10px;
+	border-bottom: 1px solid #ECECEC;
+	font-weight: bold;
+}
+.cattitle a:hover{
+	color: #c9033b;
+}
+.allcat .link a:hover{
+	color:#c9033b
+}
+.allcat .link a{
+	padding-right:12px;
+	margin-top:8px;
+	display: inline-block;
+}
+.allcat .link span{
+	padding-right:12px;
+}
+.activity{
+	color: #c9033b;
+	line-height: 30px;
+	padding-top: 10px;
+	border-bottom: 1px solid #ECECEC;
+	font-weight: bold;
+}
+.coverMenu ul {
+	margin-top:8px;
+}
+.coverMenu ul li{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	width: 170px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+.hideMenu .brand{
+	margin: 10px 0;
+	height: 60px;
+	padding-top: 8px;
+	overflow: hidden;
+	background: #F9F9F9;
+	border-top: 1px solid #F2F2F2;
+}
+.hideMenu .brand a{
+	display: inline-block;
+	width: 116px;
+	text-align: center;
+	height: 50px;
+	border-left: 1px dashed #E8E8E8;
+}
+
+.pic_ma{
+	margin-top:10px;
+	width:202px;
+	overflow: hidden;
+}
+.pic_ma a{
+	display:block;
+}
+
+/*content_right*/
+.content_right{
+	float:left;
+	width:980px;
+}
+.stage{
+	float:left;
+	position:relative;
+}
+.stage_box{
+	position:relative;
+	width:770px;
+	height:370px;
+	overflow: hidden;
+}
+.stage_img{
+	position:absolute;
+	width:8000px;
+}
+.stage_img li{
+	float:left;
+}
+.stage_img li img{
+	width:770px;
+	height:370px;
+}
+.stage_nav{
+	height: 30px;
+	overflow: hidden;
+}
+.stage_nav a{
+	display: inline-block;
+	width: 127px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	margin-left:-2px;
+	background-color: #3a3a3a;
+	overflow: hidden;
+}
+.stage_nav a.active{
+	color: #fff !important;
+	background-color: #b74f6f;
+}
+.newProduct{
+	width: 200px;
+	float: right;
+	border: solid 1px #ddd;
+	border-bottom: none;
+}
+.newProduct .title{
+	background: #f1f1f1;
+	padding: 0 10px;
+	height: 35px;
+}
+.newProduct .title span{
+	height: 25px;
+	width: 19px;
+	margin-top: 5px;
+	background: url(../img/materials/jiancai_bg2.png) no-repeat 0 -36px;
+	display: inline-block;
+	overflow: hidden;
+}
+.newProduct .title strong{
+	color: #333;
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 5px;
+	vertical-align: top;
+}
+.newProduct .list .get{
+	font-size:18px;
+	color:#fff;
+	line-height:40px;
+	text-align: center;
+	z-index: 3;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	position: absolute;
+	right:10px;
+	top:10px;
+	background: url(../img/materials/tag_new_3.png) center center no-repeat;
+}
+.newProduct .list{
+	height: 160px;
+    padding: 10px 5px;
+    border-top: solid 1px #e6e6e6;
+    position: relative;
+    text-align: center;
+    border-bottom:1px solid #ddd;
+}
+.newProduct .list .name{
+	color:#222;
+	font-weight: bold;
+}
+.newProduct .list .price {
+	margin:2px 0;
+}
+.newProduct .list .price span{
+	color:#CF000E;
+	font-size:13px;
+}
+.newProduct .list .time span{
+	padding:0 2px;
+	margin: 0 2px;
+	background-color:#cf000e;
+	text-align: center;
+	color:#fff;
+}
+
+
+/*tuangou*/
+.tuangou{
+	margin-top:20px;
+}
+.group_l{
+	width: 200px;
+	margin-right: 10px;
+	float:left;
+}
+.todayBuy{
+	height: 264px;
+	border: solid 1px #ddd;
+}
+.todayBuy .title {
+	height: 34px;
+	line-height: 34px;
+	background: #f1f1f1;
+	padding: 0 10px;
+}
+.todayBuy .title .name{
+	font-size: 15px;
+	font-family: "微软雅黑";
+	float: left;
+}
+.todayBuy .title a{
+	color: #999;
+	float: right;
+	font-family: "宋体";
+}
+.todayBuy .img{
+	height: 132px;
+	padding: 10px 0 0 0;
+	overflow: hidden;
+}
+.todayBuy .detal{
+	padding-top:4px;
+	padding-left:14px;
+}
+.todayBuy .gd_tag{
+	height: 36px;
+	background: #c9033b;
+	width: 185px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.todayBuy .arrow{
+	width: 0;
+	height: 0;
+	border-top: solid 18px #fff;
+	border-right: solid 18px #c9033b;
+	border-bottom: solid 18px #fff;
+	border-left: solid 1px #fff;
+	float: left;
+	position:relative;
+}
+.arrow .point{
+	width: 10px;
+	height: 9px;
+	position: absolute;
+	border-radius: 50%;
+	right: -24px;
+	top: -5px;
+	background:#fff;
+	z-index: 99;
+}
+.gd_tag .price{
+	height:36px;
+	line-height: 36px;
+	padding-left: 30px;
+}
+.gd_tag .price span{
+	font-size:18px;
+	color:#fff;
+}
+.gd_tag .price a{
+	display: inline-block;
+	width: 66px;
+	height: 26px;
+	overflow: hidden;
+	background: url(../img/materials/jiancai_bg2.png) 0 -87px no-repeat;
+	float:right;
+	margin-right: 5px;
+	margin-top:5px;
+}
+.todayBuy .gd_price{
+	text-align: center;
+	margin-top:4px;
+}
+
+.group_r{
+	width: 770px;
+	float:left;
+}
+.tab_header a{
+	display: inline-block;
+	vertical-align: top;
+	height: 33px;
+	line-height: 33px;
+	background: #eee;
+	padding: 0 15px;
+	border-left: solid 1px #dedede;
+	border-top: solid 1px #dedede;
+	text-decoration: none;
+	font-size: 12px;
+	color:#333;
+	font-family: "微软雅黑";
+}
+.tab_header .more a{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px;
+	overflow: hidden;
+	font-family: "宋体";
+	color: #666;
+	background-color:transparent;
+	border:none;
+}
+.tab_header a strong{
+	font-size:14px;
+	font-weight: bold;
+}
+.group_r .tab_body{
+	height: 201px;
+	padding: 15px 0;
+	border: solid 1px #ddd;
+}
+.tab_body ul li{
+	width: 180px;
+	height: 171px;
+	padding: 30px 6px 0;
+	overflow: hidden;
+	float: left;
+}
+
+.tab_body ul li p{
+	font-size:12px;
+	text-align: center;
+}
+.tab_body ul .price{
+	margin-top:4px;
+}
+.tab_body ul .price .pr{
+	color:#777;
+}
+.tab_body ul .price .prices{
+	color: #c9033b;
+	font-size:16px;
+	font-weight: bold;
+}
+.float_count{
+	width: 66px;
+	height: 19px;
+	line-height: 19px;
+	padding-bottom: 4px;
+	overflow: hidden;
+	text-align: center;
+	background: url(../img/materials/bg2.png) 0 -62px no-repeat;
+	color: #fff;
+	position: absolute;
+	margin: -25px 0 0 115px;
+}
+
+
+/*floor_box*/
+
+.floor{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.floor .head{
+	height: 32px;
+	line-height: 32px;
+	padding-bottom: 4px;
+	border-bottom: solid 2px transparent;
+}
+.floor01 .head{
+	border-bottom-color: #ba823d;
+}
+.floor .head h2{
+	width: 200px;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	height: 28px;
+	line-height: 28px;
+	float:left;
+}
+.floor .head .suggest{
+	display: inline-block;
+	margin-top:4px;
+	float:left;
+}
+
+.img_map{
+	width: 562px;
+	height: 302px;
+}
+
+.map_list{
+	width:280px;
+	border-bottom: 1px solid #ddd;
+	border-left:1px solid #ddd;
+	position:relative;
+	float:left;
+}
+.map_list .info{
+	width:130px;
+	position:absolute;
+	right:0;
+	top:30px;
+}
+.map_list .info .name{
+	font-size: 14px;
+}
+.map_list .info .red_word{
+	color:#c9033b;
+	padding:4px 0;
+}
+.info .price .pri{
+	color:#c9033b;
+	font-size:14px;
+	font-weight: bold;
+}
+
+
+/*jrank*/
+.jrank{
+	width: 218px;
+	height: 309px;
+	overflow: hidden;
+	border: solid 1px #ddd;
+	border-top: none;
+	float:left;
+	margin-left:-2px;
+}
+.jrank .head{
+	height: 33px;
+	line-height: 33px;
+	padding: 0 10px;
+	font-size: 15px;
+	font-family: '微软雅黑';
+	color: #b27224;
+	background: #f5eee2;
+	font-weight: bold;
+}
+
+
+/*toggle*/
+.toggle{
+	padding-bottom:6px;
+}
+.toggle .show_item{
+	height: 18px;
+	line-height: 18px;
+	padding: 9px;
+	cursor: pointer;
+}
+.show_item .index{
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	color: #fff;
+	margin-top: 2px;
+	float: left;
+	font-family: arial;
+	background: #bc884a;
+	margin-right:6px;
+}
+.show_item  .price_hide{
+	color:#c9033b;
+}
+.hide_map{
+	padding-left:9px;
+	height:0px;
+	overflow: hidden;
+}
+.open .hide_map{
+	height:auto;
+}
+.hide_map .img img{
+	width: 96px;
+	height:65px;
+}
+.hide_map .info{
+	margin-left:4px;
+}
+.hide_map .info .price{
+	margin-bottom: 4px;
+}
+.hide_map .info .price .price{
+	color:#c9033b;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+
+/*floor_choose*/
+.floor_choose{
+	clear:both;
+}
+.fc_left{
+	width:200px;
+	height:180px;
+	float:left;
+}
+.fc_left:after{
+	content: "";
+	display: block;	
+	clear: both;
+}
+.fc_left .left_tip{
+	float:left;
+	width: 15px;
+	padding: 30px 7px;
+	height: 120px;
+	font-size:14px;
+	line-height: 17px;
+	font-weight: bold;
+}
+.fc_left .left_tip i{
+	background: url(../img/materials/jiancai_bg2.png) no-repeat;
+	display: inline-block;
+	background-position: -1px -113px;
+	overflow: hidden;
+	width: 17px;
+	height: 18px;
+	margin-top: 2px;
+}
+.fc_left .left_tip01{
+	background-color: #d2ab7c;
+	color: #faf7f3;
+}
+.fc_left .rtip{
+	float:left;
+	width: 171px;
+	background-color: #f6f6f6;
+	height: 150px;
+	padding: 15px 0;
+	overflow: hidden;
+}
+.fc_left .rtip ul li{
+	padding:0 10px;
+	height:25px;
+	line-height: 25px;
+}
+.fc_left .rtip ul li span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+	background: url(../img/materials/jiancai_bg2.png) no-repeat;
+	background-position: -20px -45px;
+}
+
+.fc_right{
+	float:left;
+}
+.floor_choose:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fc_right a{
+	display:inline-block;
+}
+
+
+/*comMap*/
+.comMap{
+	margin-bottom: 20px;
+}
+.comMap.last{
+	margin-bottom:0;
+}
+.comMap:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+.mapItem{
+	width: 324px;
+	height: 344px;
+	float:left;
+	border: solid 1px #ddd;
+	overflow: hidden;
+}
+.mapItem.first{
+	border-right:none;
+}
+.comMap .title {
+	height: 34px;
+	line-height: 34px;
+	padding: 0 15px;
+	border-bottom: solid 1px #ddd;
+	background: #f9f9f9;
+	font-size: 15px;
+}
+.comMap .title h3{
+	height:100%;
+	font-family: "微软雅黑";
+	color: #333;
+	float: left;
+	font-weight: bold;
+}
+.comMap .title a{
+	font-size:12px;
+}
+.mapItem .body{
+	padding: 20px 18px;
+}
+.mapItem .ad{
+	height: 132px;
+	padding-bottom: 15px;
+	border-bottom: dashed 1px #dadada;
+	overflow: hidden;
+}
+.mapItem .body ul{
+	margin-top:6px;
+}
+.mapItem .body ul li{
+	width: 288px;
+	height: 23px;
+	line-height: 23px;
+	color: #999;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.outBox{
+	height: 285px;
+	overflow: hidden;
+}
+.outBox .list{
+	height: 79px;
+	padding: 8px 0;
+	overflow: hidden;
+}
+.outBox .list .img{
+	width: 119px;
+	overflow: hidden;
+	float: left;
+	margin-right: 12px;
+}
+.outBox .list a{
+	text-decoration: none;
+	color: #333;
+}
+.outBox .list p{
+	height: 54px;
+	line-height: 18px;
+	overflow: hidden;
+	color: #666;
+}
+.outBox .list .star{
+	height: 9px;
+}
+.outBox .list .star .bg{
+	width: 55px;
+	height: 9px;
+	overflow: hidden;
+	background: url(../img/materials/weibo_bg2.png) -124px 0 no-repeat;
+}
+.outBox .list .star span{
+	display: inline-block;
+	height: 9px;
+	overflow: hidden;
+	vertical-align: top;
+	background: url(../img/materials/weibo_bg2.png) -124px -9px no-repeat;
+}
+.outBox .list .star span.w5{
+	width:55px;
+}
+.outBox .list .uname{
+	height: 16px;
+	line-height: 16px;
+	color: #f0670d;
+}
+.outBox .list .uname a{
+	color: #f60;
+}
+
+/*chengjiao*/
+.chengjiao .list p{
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.chengjiao .list .price{
+	color: #c20000;
+}
+.chengjiao .list .uname a{
+	color:#333;
+}
+.chengjiao .list a:hover{
+	color: #cf000e;
+}
+
+.comMap .chuangyi .notes{
+	height: 83px;
+	overflow: hidden;
+}
+.comMap .chuangyi .notes .img{
+	width: 124px;
+	height: 83px;
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+}
+.comMap .chuangyi .notes h4{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	overflow: hidden;
+	color: #666;
+}
+.comMap .chuangyi .notes p{
+	height: 54px;
+	line-height: 18px;
+	color: #787878;
+	text-indent: 2em;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.comMap .chuangyi ul{
+	margin-top:6px;
+}
+.comMap .chuangyi ul li{
+	width: 288px;
+	margin-top: 9px;
+	color: #666;
+	overflow: hidden;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+
+.comMap .mapItem .title span{
+	padding-left: 5px;
+	color: #787878;
+	font-size:12px;
+}
+.comMap .xiujia{
+	width: 653px;
+}
+.comMap .xiujia .map1{
+	width: 141px;
+	height: 233px;
+	overflow: hidden;
+}
+.comMap .xiujia .map1 .td{
+	height: 115px;
+	overflow: hidden;
+}
+.comMap .xiujia .mt3{
+	margin-top: 3px;
+}
+.comMap .xiujia .map2{
+	width: 327px;
+	height: 233px;
+	overflow: hidden;
+	padding-left: 3px;
+}

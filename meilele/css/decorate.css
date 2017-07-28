@@ -1,0 +1,22 @@
+.stage .stage_nav a{
+	width:153px;
+	height:36px;
+}
+.list{
+	position:relative;
+}
+.list .move_bolk{
+	position:absolute;
+	left:-185px;
+	top:20px;
+}
+.momo{
+	width:30px;
+	height:30px;
+	background-color:rgba(0,0,255,0.5);
+	position:absolute;
+}
+.list .move_bolk{
+	transform: scale(1.5);
+}
+
